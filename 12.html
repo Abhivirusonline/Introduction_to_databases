@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bug Report</title>
+	<link rel="stylesheet" type="text/css" href="./bug.css">
+</head>
+<body>
+<div class="main">
+	<div class="header_section">
+		<div style="float: left; margin-left: 10px;">
+			<ul><li><a href="#">TO THE NEW</a></li></ul>
+		</div>
+		<div style="float: right; margin-right: 10px;">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Quick Help</a></li>
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<div class="mid">
+		<div class="bug_report">
+			<form >
+			<div class="bug_report_head">
+				Bug Report
+			</div>
+			<div class="bug_content">
+				<label>Title:*</label> <br/>
+				<input type="text" name="title" required>
+			</div>
+			<div class="bug_content">
+				<label>Description:*</label> <br/>
+				<textarea cols="66"></textarea>
+			</div>
+			<div class="bug_content">
+				<label>Operating System:*</label> <br/>
+				<select required>
+					<option>Windows XP</option>
+				</select>
+			</div>
+			<div class="bug_content">
+				<label>Product:*</label> <br/>
+				<select required>
+					<option>Formoid</option>
+				</select>
+			</div>
+			<div class="bug_content" id="version">
+				<label>Version:*</label> <br/>
+				<input type="text" name="title" required>
+			</div>
+			<div class="bug_content">
+				<label>License:</label> <br/>
+				<div class="free">
+					<input type="radio" name="License" value="Free"required checked="">Free
+				</div>					
+					<div class="Business">
+						<input type="radio" name="License" value="Business"required>Business	
+					</div>
+			</div>
+			<div class="bug_content">
+				<label>Severity:</label> <br/>
+				<select required>
+					<option>Critical</option>
+				</select>
+			</div>
+			<div class="bug_content">
+				<label>Attachments:</label> <br/>
+				<label class="file">
+					<input type="file" id="file" name="file" aria-lable="File browser">
+					<span class="file-custom"></span>
+				</label>
+			</div>
+			<div class="bug_report_footer" style="background-color: #ccc; height:49px;padding: 10px;">
+				<input type="submit" name="" value="Send" style="float: right; padding: 10px; width: 80px;border-radius: 5px;color: #fff;font-weight: bold; background-color: #00d39e; border: none;">
+			</div>
+		</form>
+		</div>
+	</div>
+	<br>
+</div>
+</body>
+</html>
