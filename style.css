@@ -1,0 +1,95 @@
+	body{
+ 		margin:0;
+ 	}
+ 	.main{
+ 		margin-left: 40px;
+ 		margin-right: 40px;
+ 		margin-top: 20px;
+ 		margin-bottom: 10px;
+ 	}
+ 	.cards{
+ 		border: 1px solid black;
+ 		padding: 2px;
+ 		height: 349px;
+ 		width: 229px;
+ 	}
+ 	 .card{
+ 	 	float: left;
+ 	 	margin-right: 10px;
+ 	 	border: 2px solid black;
+ 	 	height: 315px;
+ 	 	width: 215px;
+ 	 	color:#fff;
+ 	 	padding: 5px;
+ 	 	text-align: center;
+ 	 	background-color: #353535;
+ 	 }
+ 	 .card p{
+ 	 	padding-top: 45%;
+ 	 }
+ 	 .caption{
+ 	  height: 10px;
+ 	 }
+ 	 .carasoul{
+ 	 	height: 360px;
+ 	 	width: 960px;
+ 	 	color: #fff; 	 	
+ 	 	background-color: #353535;
+ 	 	text-align: center;
+ 	 }
+ 	  .carasoul p{
+ 	 	padding-top: 18%;
+ 	 }
+ 	 .menu{
+ 	 	margin-left: 40px;
+ 	 	background-color: black;
+ 	 	height: 30px;
+ 	 	margin-right: 20px;
+ 	 	padding: 8px
+ 	 }
+ 	 .menu ul li a{
+ 	 	text-decoration: none;
+ 	 	display: block;
+ 	 	padding: 8px;
+ 	 }
+ 	 .menu ul li{
+ 	 	display: inline;
+ 	 	float: left;
+ 	 }
+ 	 .menu ul{
+ 	 	list-style-type: none;
+ 	 	margin: 0;
+ 	 	padding: 0;
+ 	 }
+ 	 .para p{
+ 	 	background-color: #0000ff; padding: 5px; margin-top: 10px; max-width:954px;
+ 	 	background-color: #ececec;
+ 	 	width: 960px;
+ 	 	color:#000;
+ 	 }
+ 	 footer{
+ 	 	color:white;
+ 	 	clear: both;
+ 	 	height: 40px;
+ 	 	background-color: #2a2a2a;
+ 	 }
+ 	 .footer_left{
+ 	 	margin-left: 40px; float:left;margin-bottom: 0px;
+ 	 }
+ 	 .footer_right{
+ 	 	margin-right: 40px; float: right;
+ 	 }
+
+ 	 header{
+ 	 	background-color: #353535; height: 95px; color: white;
+ 	 }
+ 	 header div{
+ 	 	padding-left: 40px; padding-top: 10px;
+ 		padding-bottom: 10px;
+ 	 }
+ 	 hr{
+ 	 	width: 960px;margin-left: 0;
+ 	 }
+ 	 .card_outside{
+ 	 	display: flex; padding-left: 10px;
+ 	 }
